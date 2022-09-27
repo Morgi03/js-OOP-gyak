@@ -20,13 +20,19 @@
             height: 30px;
             width: 100px;
         }
+        label, output {
+            margin: auto;
+            display: table;
+        }
     </style>
 </head>
 <body>
     <br />
     <input type="text" placeholder="Ide írd a zeneszám címét" id="nev"><br /><br />
     <input type="number" placeholder="Ide írd a zeneszám hosszát (másodpercben)" id="szamhossz"><br />
-    <button id="gomb">Küldés</button>
+    <button id="gomb">Hozzáadás</button><br /><br /><br />
+    <label>A zenék hossza összesen:</label><br />
+    <output id="osszesen"></output>
     
 </body>
 </html>
